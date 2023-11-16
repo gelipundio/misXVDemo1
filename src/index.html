@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600&family=Quicksand:wght@300;500;700&display=swap">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="max-w-600 mx-auto">
+        <!-- cuenta regresiva -->
+        <div class="min-h-screen w-screen h-80 bg-morado-fondo flex flex-col justify-center items-center"
+            style="background-image: url('./img/img_bg_marmol.jpg'); background-size: cover; background-position: center;">
+            <div class="mx-4 w-[90%] h-[95%] p-4 relative flex flex-col items-center justify-center">
+                <div
+                    style="border-image: linear-gradient(45deg, #ffd700, #ffd700); border-image-slice: 1; border-width: 4px;"
+                    class="absolute inset-0 border-4"></div>
+                <section class="min-w-[80%] mb-20 mt-2">
+                    <img class="w-full mx-auto max-h-250 max-w-xl" src="./img/logo_evento.svg"
+                        alt="Logo del evento">
+                </section>
+                <h1
+                    class="textSubtitulos font-normal text-2xl text-morado-regular text-center pt-4 md:pt-8 mb-2">DICIEMBRE
+                    02</h1>
+                <div class="w-[80%] flex flex-col items-center justify-center">
+                    <div
+                        class="flex justify-evenly w-full md:w-5/6 py-4 countdown-container max-w-full overflow-hidden">
+
+                        <div class="countdown-item">
+                            <p class="countdown-value text-morado-regular text-2xl font-medium" id="days">0</p>
+                            <span class="countdown-label text-morado-regular text-2xl font-medium">DÍAS</span>
+                        </div>
+                        <div class="countdown-item">
+                            <p class="countdown-value text-morado-regular text-2xl font-medium" id="hours">0</p>
+                            <span class="countdown-label text-morado-regular text-2xl font-medium">HRS</span>
+                        </div>
+                        <div class="countdown-item">
+                            <p class="countdown-value text-morado-regular text-2xl font-medium" id="minutes">0</p>
+                            <span class="countdown-label text-morado-regular text-2xl font-medium">MIN</span>
+                        </div>
+                        <div class="countdown-item">
+                            <p class="countdown-value text-morado-regular text-2xl font-medium" id="seconds">0</p>
+                            <span class="countdown-label text-morado-regular text-2xl font-medium">SEG</span>
+                        </div>
+                    </div>
+                    <script src="cuentaRegresiva.js"></script>
+                    <button
+                        class="w-[70%] md:w-5/6 py-2 my-4 px-8 border-2 border-morado-regular rounded-md text-morado-regular font-montserrat max-w-full">RSVP</button>
+                </div>
+            </div>
+            <!-- FLORES CUENTA REGRESIVA -->
+            <img class="absolute top-0 -right-3" style="width: 170px; height: auto;"
+                src="./img/icon_flor_sub_der_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+            <img class="absolute top-0 left-0" style="width: 170px; height: auto;"
+                src="./img/icon_flor_sup_izq_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+            <img class="absolute top-[380px] -right-16" style="width: 170px; height: auto;"
+                src="./img/icon_flor_inf_der_Mesa de trabajo 1_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+            <img class="absolute top-[380px] -left-6" style="width: 140px; height: auto;"
+                src="./img/icon_flor_central_iz_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+        </div>
+
+        <!-- Mensaje -->
+        <div class="w-screen h-80 bg-morado-fondo flex flex-col justify-center items-center">
+            <div class="mx-4 w-[90%] h-[85%] p-4 relative">
+                <div
+                    style="border-image: linear-gradient(45deg, #ffd700, #ffd700); border-image-slice: 1; border-width: 4px;"
+                    class="absolute inset-0 border-4"></div>
+                <h2 class="text-3xl font-bold mb-4 md:text-4xl tituloGreatVibes">Mis quince años</h2>
+                <p class="text-base md:text-xl textoDescriptivo">
+                    Hoy guardo en mis brazos la estrella divina que fue mi niñez.<br> Y hoy mi adolescencia con alas de
+                    ángel se eleva hacia el cielo por primera vez.<br> Por eso quiero compartir con mis padres y contigo.
+                </p>
+            </div>
+
+            <!-- FLORES MENSAJE -->
+            <img class="absolute top-[1050px] -left-6" style="width: 140px; height: auto;"
+                src="./img/icon_flor_central_iz_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+        </div>
+
+        <!-- Donde y Cuando -->
+        <div class="bg-morado-fondo min-h-screen w-full py-16 text-center">
+            <p class="tituloGreatVibes mt-2 mb-4">Dónde y Cuando</p>
+
+            <div
+                class="flex flex-col space-y-16 items-center md:flex-row md:flex md:items-center md:justify-center md:space-y-6">
+                <!-- Sección Ceremonia -->
+                <div class="text-center w-full md:w-1/2">
+                    <p class="textSubtitulos">CEREMONIA</p>
+                    <div
+                        class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
+                        <img class="w-full max-w-[80%] h-40 object-cover rounded-xl md:h-80"
+                            src="./img/Img_misa_parroquia.png" alt="imagen de la parroquia">
+                    </div>
+                    <p class="textoDescriptivo mt-4">
+                        Hora: 17:00 hrs<br> Parroquia de la Santísima Trinidad<br> Bv. Justo Sierra, Periodista,
+                        83156<br> Hillo, Son.
+                    </p>
+                    <button
+                        class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat">VER
+                        MAPA CEREMONIA</button>
+                </div>
+
+                <!-- Sección Recepción -->
+                <div class="text-center w-full md:w-1/2">
+                    <p class="textSubtitulos">RECEPCIÓN</p>
+                    <div
+                        class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
+                        <img class="w-full max-w-[80%] h-40 object-cover rounded-xl md:h-80"
+                            src="./img/Img_fiesta_marques.jpg" alt="imagen del salon">
+                    </div>
+                    <p class="textoDescriptivo mt-4">
+                        Hora: 20:00 A 01:00 hrs<br> Eventos El Marqués<br> Ramón Valdez Ramírez 1004,<br>Unión de
+                        Ladrilleros, 83179 Hillo, Son.
+                    </p>
+                    <button
+                        class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat">VER
+                        MAPA RECEPCIÓN</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mesa de regalos -->
+        <div
+            class="w-screen h-auto bg-morado-fondo flex flex-col justify-center items-center "
+            style="background-image: url('./img/img_bg_marmol.jpg'); background-size: cover; background-position: center;">
+            <div class="mx-auto w-[90%] m-4 p-4 border-yellow-400 border-solid rounded-md relative">
+                <div
+                    style="border-image: linear-gradient(45deg, #ffd700, #ffd700); border-image-slice: 1; border-width: 4px;"
+                    class="absolute inset-0 border-4"></div>
+                <p class="tituloGreatVibes text-morado-fondo mt-1">Mesa de regalo</p>
+                <p class="textoDescriptivo text-morado-fondo mt-2 mb-2 md:text-2xl">
+                    Tengo muchas metas, con su generosidad, puedo comenzar a ahorrar para cumplir alguna de ellas.
+                </p>
+                <div class="mx-auto my-4 w-[85%] flex items-center justify-center">
+                    <img class="max-w-[15vw] bg-auto" src="./img/icon_sobreDinero_20px.svg" alt="">
+                    <div
+                        class="textSubtitulos text-base text-left ml-2 text-morado-fondo text-vw md:text-3xl">
+                        <p>BANORTE</p>
+                        <p>CUENTA: 0357456716</p>
+                    </div>
+                </div>
+            </div>
+            <!-- FLORES Mesa de regalos -->
+            <img class="absolute top-[2040px] -right-8" style="width: 140px; height: auto;"
+                src="./img/icon_flor_inf_der_inf_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+
+
+        </div>
+
+        <!-- confirmación -->
+        <div class="w-screen h-80 bg-morado-fondo flex flex-col justify-center items-center">
+            <div class="mx-4 w-[90%] h-[85%] p-4 relative">
+                <h2 class="text-3xl font-bold mb-4 md:text-4xl tituloGreatVibes">Confirmación</h2>
+                <p class="text-base md:text-xl textoDescriptivo">
+                    No te pierdas ningún momento importante confirmando antes del 16 de noviembre.
+                </p>
+                <button onclick="abrirWhatsApp()"
+                    class="w-80 md:w-[320px] mx-auto mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat flex items-center justify-center text-center">
+                    <img class="w-6 h-6 mr-2" src="./img/icon_whatsapp.svg" alt="Icono de WhatsApp">
+                    <span>CONFIRMACIÓN</span>
+                </button>
+
+
+                <!--Funcion para confirmar asistencia-->
+                <script>
+                    function abrirWhatsApp() {
+                        // Número de teléfono al que se enviará el mensaje
+                        var numeroTelefono = "6623803884";
+
+                        // Mensaje de confirmación
+                        var mensaje = "¡Hola! Confirmo mi asistencia al evento.";
+
+                        // Crear la URL de WhatsApp con el número de teléfono y el mensaje
+                        var urlWhatsApp = "https://wa.me/" + numeroTelefono + "?text=" +
+                            encodeURIComponent(mensaje);
+
+                        // Abrir la URL en una nueva pestaña
+                        window.open(urlWhatsApp);
+                    }
+                </script>
+            </div>
+
+            <img class="absolute top-[2440px] -left-16" style="width: 170px; height: auto;"
+                src="./img/icon_flor_central_iz_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+            <img class="absolute top-[2410px] -right-20" style="width: 170px; height: auto;"
+                src="./img/icon_flor_inf_der_Mesa de trabajo 1_Mesa de trabajo 1.svg" alt="Imagen decorativa">
+        </div>
+    </div>
+    <style>
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
+</body>
+
+</html>

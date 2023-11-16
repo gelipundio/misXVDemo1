@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    
+    /* Estilos para los títulos */
+    .tituloGreatVibes {
+        @apply text-4xl py-2 px-8 font-GreatVibes text-white text-center;
+    }
+
+    /* Estilos para textos descriptivos */
+    .textoDescriptivo {
+        @apply text-lg px-4 font-normal text-white text-center font-montserrat;
+    }
+
+    /* Estilos para subtítulos */
+    .textSubtitulos {
+        @apply text-2xl text-center text-white font-medium font-montserrat;
+    }
+
+    /* Estilos para el contador */
+    .cuentaContenedor {
+        @apply w-screen flex flex-col items-center justify-center bg-rose-600;
+    }
+
+    .countdownConta {
+        @apply flex justify-evenly h-screen w-5/6 flex-wrap;
+    }
+
+    .cuentaDatos {
+        @apply grid place-items-center p-3 m-4;
+    }
+
+    .p_contador {
+        @apply place-items-center h-18 w-18 text-white text-2xl font-bold;
+    }
+
+    /* Clases reutilizables en el sistema de utilidades */
+    @layer utilities {
+        .custom-size {
+            width: 20px; /* o el valor que desees */
+        }
+    }
+}
