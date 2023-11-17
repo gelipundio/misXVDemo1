@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600&family=Quicksand:wght@300;500;700&display=swap"
     />
     <link rel="stylesheet" href="./CSS/estilos.css" />
-    <title>Document</title>
+    <title>XV Nicole</title>
   </head>
 
   <body>
@@ -100,12 +100,14 @@
                 >
               </div>
             </div>
-            <script src="cuentaRegresiva.js"></script>
-            <button
+
+            <!-- <button
+              onclick="console.log('rsvp'')"
               class="w-[70%] md:w-5/6 py-2 my-4 px-8 border-2 border-morado-regular rounded-md text-morado-regular font-montserrat max-w-full"
             >
-              RSVP
+              <span> RSVP </span>
             </button>
+            <button onclick="console.log('asdf')">ASDFB</button> -->
           </div>
         </div>
         <!-- FLORES CUENTA REGRESIVA -->
@@ -292,7 +294,7 @@
             Confirmación
           </h2>
           <p class="text-base md:text-xl textoDescriptivo">
-            No te pierdas ningún momento importante confirmando antes del 16 de
+            No te pierdas ningún momento importante confirmando antes del 22 de
             noviembre.
           </p>
           <button
@@ -308,25 +310,6 @@
           </button>
 
           <!--Funcion para confirmar asistencia-->
-          <script>
-            function abrirWhatsApp() {
-              // Número de teléfono al que se enviará el mensaje
-              var numeroTelefono = "6621560995";
-
-              // Mensaje de confirmación
-              var mensaje = "¡Hola! Confirmo mi asistencia al evento.";
-
-              // Crear la URL de WhatsApp con el número de teléfono y el mensaje
-              var urlWhatsApp =
-                "https://wa.me/" +
-                numeroTelefono +
-                "?text=" +
-                encodeURIComponent(mensaje);
-
-              // Abrir la URL en una nueva pestaña
-              window.open(urlWhatsApp);
-            }
-          </script>
         </div>
 
         <img
@@ -343,6 +326,29 @@
         />
       </div>
     </div>
+
+    <script>
+      function abrirWhatsApp() {
+        console.log("sending");
+        // Número de teléfono al que se enviará el mensaje
+        var numeroTelefono = "+526621560995";
+
+        // Mensaje de confirmación
+        var mensaje = "¡Hola! Confirmo mi asistencia al evento.";
+
+        // Crear la URL de WhatsApp con el número de teléfono y el mensaje
+        var urlWhatsApp =
+          "https://wa.me/" +
+          numeroTelefono +
+          "?text=" +
+          encodeURIComponent(mensaje);
+
+        // Abrir la URL en una nueva pestaña
+        window.open(urlWhatsApp);
+      }
+    </script>
+    <script src="cuentaRegresiva.js"></script>
+
     <style>
       body {
         max-width: 100%;
