@@ -83,46 +83,46 @@
         </div>
 
         <!-- Donde y Cuando -->
-        <div class="bg-morado-fondo min-h-screen w-full py-16 text-center md:min-h-[85%]">
-            <p class="tituloGreatVibes mt-2 mb-4">Dónde y Cuando</p>
+<div class="bg-morado-fondo min-h-screen w-full py-16 text-center">
+    <p class="tituloGreatVibes mt-2 mb-4">Dónde y Cuando</p>
 
-            <div
-                class="flex flex-col space-y-16 items-center md:flex-row md:flex md:items-center md:justify-center md:space-y-6">
-                <!-- Sección Ceremonia -->
-                <div class="text-center w-full md:w-1/2">
-                    <p class="textSubtitulos">CEREMONIA</p>
-                    <div
-                        class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
-                        <img class="w-full max-w-[80%] h-40 object-cover rounded-xl md:h-80"
-                            src="./img/Img_misa_parroquia.png" alt="imagen de la parroquia">
-                    </div>
-                    <p class="textoDescriptivo mt-4">
-                        Hora: 17:00 hrs<br> Parroquia de la Santísima Trinidad<br> Bv. Justo Sierra, Periodista,
-                        83156<br> Hillo, Son.
-                    </p>
-                    <button
-                        class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat">VER
-                        MAPA CEREMONIA</button>
-                </div>
-
-                <!-- Sección Recepción -->
-                <div class="text-center w-full md:w-1/2">
-                    <p class="textSubtitulos">RECEPCIÓN</p>
-                    <div
-                        class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
-                        <img class="w-full max-w-[80%] h-40 object-cover rounded-xl md:h-80"
-                            src="./img/Img_fiesta_marques.jpg" alt="imagen del salon">
-                    </div>
-                    <p class="textoDescriptivo mt-4">
-                        Hora: 20:00 A 01:00 hrs<br> Eventos El Marqués<br> Ramón Valdez Ramírez 1004,<br>Unión de
-                        Ladrilleros, 83179 Hillo, Son.
-                    </p>
-                    <button
-                        class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat">VER
-                        MAPA RECEPCIÓN</button>
-                </div>
+    <div class="flex flex-col space-y-16 items-center md:flex-row md:flex md:items-center md:justify-center">
+        <!-- Sección Ceremonia -->
+        <div class="text-center w-full md:w-1/2">
+            <p class="textSubtitulos">CEREMONIA</p>
+            <div class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
+                <img class="w-full max-w-[80%] h-40 object-cover rounded-xl" src="./img/Img_misa_parroquia.png" alt="imagen de la parroquia">
             </div>
+            <p class="textoDescriptivo mt-4">
+                Hora: 17:00 hrs<br>
+                Parroquia de la Santísima Trinidad<br>
+                Bv. Justo Sierra, Periodista, 83156<br> Hermosillo, Son.
+            </p>
+            <button class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat" onclick="verMapa('https://maps.app.goo.gl/XpMPDeNu8tn48G7Y7')">VER MAPA CEREMONIA</button>
         </div>
+
+        <!-- Sección Recepción -->
+        <div class="text-center w-full md:w-1/2">
+            <p class="textSubtitulos">RECEPCIÓN</p>
+            <div class="relative w-70 mx-auto overflow-hidden rounded-xl flex items-center justify-center">
+                <img class="w-full max-w-[80%] h-40 object-cover rounded-xl" src="./img/Img_fiesta_marques.jpg" alt="imagen del salon">
+            </div>
+            <p class="textoDescriptivo mt-4">
+                Hora: 20:00 A 01:00 hrs<br>
+                Eventos El Marqués<br>
+                Ramón Valdez Ramírez 1004,<br>Unión de Ladrilleros, 83179 Hermosillo, Son.
+            </p>
+            <button class="w-80 md:w-[320px] mt-4 py-2 px-8 border-2 border-white rounded-md text-white font-montserrat" onclick="verMapa('https://maps.app.goo.gl/Yga4EGfWahUhq2ui7')">VER MAPA RECEPCIÓN</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function verMapa(url) {
+        window.open(url);
+    }
+</script>
+
 
         <!-- Mesa de regalos -->
         <div
