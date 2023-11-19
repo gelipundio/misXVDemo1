@@ -100,14 +100,6 @@
                 >
               </div>
             </div>
-
-            <!-- <button
-              onclick="console.log('rsvp'')"
-              class="w-[70%] md:w-5/6 py-2 my-4 px-8 border-2 border-morado-regular rounded-md text-morado-regular font-montserrat max-w-full"
-            >
-              <span> RSVP </span>
-            </button>
-            <button onclick="console.log('asdf')">ASDFB</button> -->
           </div>
         </div>
         <!-- FLORES CUENTA REGRESIVA -->
@@ -330,20 +322,20 @@
     <script>
       function abrirWhatsApp() {
         console.log("sending");
-        // Número de teléfono al que se enviará el mensaje
+       
         var numeroTelefono = "+526621560995";
 
-        // Mensaje de confirmación
+        
         var mensaje = "¡Hola! Confirmo mi asistencia al evento.";
 
-        // Crear la URL de WhatsApp con el número de teléfono y el mensaje
+        
         var urlWhatsApp =
           "https://wa.me/" +
           numeroTelefono +
           "?text=" +
           encodeURIComponent(mensaje);
 
-        // Abrir la URL en una nueva pestaña
+        
         window.open(urlWhatsApp);
       }
     </script>
